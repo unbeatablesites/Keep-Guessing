@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class App {
@@ -12,6 +13,7 @@ public class App {
         System.out.println("I have chosen a number between 1 and 10. Try to guess it.\n");
         System.out.print("Your guess:");
         Scanner scan = new Scanner(System.in);
+        Random rand = new Random();
         int userGuess = scan.nextInt();
         int secretNumber = 5;
 
