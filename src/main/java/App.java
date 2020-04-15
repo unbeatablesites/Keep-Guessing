@@ -16,10 +16,11 @@ public class App {
         int secretNumber = 5;
 
         while (userGuess != secretNumber){
-            System.out.println("I have chosen a number between 1 and 10. Try to guess it.\n");
+            System.out.println("That is incorrect. Guess again.\n");
             System.out.print("Your guess:");
              userGuess = scan.nextInt();
         }
+
 
 
 
