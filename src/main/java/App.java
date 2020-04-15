@@ -15,12 +15,14 @@ public class App {
         Scanner scan = new Scanner(System.in);
         Random rand = new Random();
         int userGuess = scan.nextInt();
-        int secretNumber = 5;
+        int secretNumber = 1 + rand.nextInt(10);
+        System.out.println(secretNumber);
 
         while (userGuess != secretNumber){
             System.out.println("That is incorrect. Guess again.\n");
             System.out.print("Your guess:");
              userGuess = scan.nextInt();
+            System.out.println(secretNumber);
         }
 
         System.out.println("That's right! You're a good guesser.");
