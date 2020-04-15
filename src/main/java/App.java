@@ -21,6 +21,7 @@ public class App {
              userGuess = scan.nextInt();
         }
 
+        System.out.println("That's right! You're a good guesser.");
 
 
 
